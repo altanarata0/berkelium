@@ -50,9 +50,7 @@ export default async function HomePage() {
           </h1>
 
           <p className="text-off-white/50 font-body text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-            The university was offered this mark and rejected it.
-            <br className="hidden md:block" />
-            So we made it ourselves.
+            High quality apparel inspired by element 97.
           </p>
 
           <Link
@@ -100,12 +98,12 @@ export default async function HomePage() {
             {/* Right — narrative */}
             <div>
               <span className="text-xs font-body tracking-[0.4em] uppercase text-california-gold mb-4 block">
-                The Origin
+                The Element
               </span>
               <h2 className="font-heading text-3xl md:text-4xl text-charcoal mb-6 leading-tight">
-                The mark Berkeley
+                Element 97.
                 <br />
-                left behind.
+                Berkelium.
               </h2>
               <div className="space-y-4 text-charcoal/70 font-body leading-relaxed">
                 <p>
@@ -114,9 +112,8 @@ export default async function HomePage() {
                   university, it became part of the periodic table forever.
                 </p>
                 <p>
-                  The university was offered the Bk symbol as a trademark. They
-                  passed. We didn&apos;t. Now it lives on hoodies, tees, and hats — a
-                  mark rooted in discovery, worn with intention.
+                  We put it on hoodies, tees, and hats. A mark rooted in
+                  discovery, worn with intention.
                 </p>
               </div>
             </div>
@@ -179,9 +176,9 @@ export default async function HomePage() {
             Actinide Series &middot; Period 7
           </p>
           <h2 className="font-heading text-3xl md:text-5xl text-off-white mb-8 leading-tight">
-            Wear the element
+            Wear the element.
             <br />
-            they left behind.
+            Element 97.
           </h2>
           <Link
             href="/shop"

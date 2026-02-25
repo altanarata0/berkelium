@@ -24,8 +24,8 @@ export function Footer() {
               </span>
             </div>
             <p className="text-sm leading-relaxed max-w-sm">
-              Element 97. Discovered at UC Berkeley in 1949. The university was
-              offered the mark and rejected it. We picked it up.
+              High quality apparel inspired by Berkelium — element 97, discovered
+              at UC Berkeley in 1949.
             </p>
           </div>
 

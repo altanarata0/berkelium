@@ -16,10 +16,10 @@ export const metadata: Metadata = {
     template: "%s | Bk",
   },
   description:
-    "Element 97. The university rejected this mark, so we made it ourselves. Hoodies, tees, and hats.",
+    "Element 97. High quality apparel inspired by Berkelium. Hoodies, tees, and hats.",
   openGraph: {
     title: "Bk — Berkelium Apparel",
-    description: "Element 97. Wear the mark Berkeley rejected.",
+    description: "High quality apparel inspired by element 97.",
     type: "website",
   },
 }
