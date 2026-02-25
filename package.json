@@ -1,0 +1,11 @@
+{
+  "name": "berkelium",
+  "private": true,
+  "scripts": {
+    "dev:backend": "pnpm --filter backend dev",
+    "dev:storefront": "pnpm --filter storefront dev",
+    "dev": "pnpm run dev:backend & pnpm run dev:storefront",
+    "build:backend": "pnpm --filter backend build",
+    "build:storefront": "pnpm --filter storefront build"
+  }
+}

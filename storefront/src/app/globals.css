@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+/* Berkeley Oldstyle — self-hosted. Place .woff2 files in public/fonts/ */
+@font-face {
+  font-family: "Berkeley Oldstyle";
+  src: url("/fonts/BerkeleyOldstyle-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Berkeley Oldstyle";
+  src: url("/fonts/BerkeleyOldstyle-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme inline {
+  /* Brand colors */
+  --color-berkeley-blue: #003262;
+  --color-california-gold: #FDB515;
+  --color-off-white: #F5F5F0;
+  --color-charcoal: #1A1A1A;
+
+  /* Functional aliases */
+  --color-background: var(--color-off-white);
+  --color-foreground: var(--color-charcoal);
+
+  /* Font families */
+  --font-heading: "Berkeley Oldstyle", "Georgia", serif;
+  --font-body: var(--font-inter);
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-body);
+}
+
+/* Toast slide-in animation */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Smooth scroll for anchor links */
+html {
+  scroll-behavior: smooth;
+}
