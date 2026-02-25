@@ -1,17 +1,18 @@
 @import "tailwindcss";
 
-/* Berkeley Oldstyle — self-hosted. Place .woff2 files in public/fonts/ */
+/* Berkeley Oldstyle — self-hosted */
 @font-face {
   font-family: "Berkeley Oldstyle";
-  src: url("/fonts/BerkeleyOldstyle-Regular.woff2") format("woff2");
+  src: url("/fonts/BerkeleyOldstyle-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
+/* Reuse regular weight for bold until a bold variant is available */
 @font-face {
   font-family: "Berkeley Oldstyle";
-  src: url("/fonts/BerkeleyOldstyle-Bold.woff2") format("woff2");
+  src: url("/fonts/BerkeleyOldstyle-Regular.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
